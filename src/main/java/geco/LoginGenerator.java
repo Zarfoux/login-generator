@@ -47,6 +47,7 @@ public class LoginGenerator {
         return loginB;
     }
 
+
     /**
      * Supprime les accents d'une chaine de caractere
      *
