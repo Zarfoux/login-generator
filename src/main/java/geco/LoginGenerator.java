@@ -42,7 +42,7 @@ public class LoginGenerator {
         while (loginService.loginExists(loginB)) {
             loginB = loginA + ""+i ;
             i++;
-        }
+        }git
         loginService.addLogin(loginB);
         return loginB;
     }
