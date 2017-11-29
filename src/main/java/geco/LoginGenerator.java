@@ -31,7 +31,7 @@ public class LoginGenerator {
      * </ul>
      * @param nom le nom
      * @param prenom le prenom
-     * @return le login genere
+     * @return le login AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
      */
     public String generateLoginForNomAndPrenom(String nom, String prenom) {
         String p = deAccent(prenom.substring(0,1).toUpperCase());
